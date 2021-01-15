@@ -32,9 +32,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
-        <tag>HEAD</tag>
+    	<developerConnection>scm:git:https://github.com/wayne2743/mb2g-release-plugin.git</developerConnection>
+    	<url>https://github.com/wayne2743/mb2g-release-plugin</url>
     </scm>
 
     <build>
@@ -52,16 +51,12 @@
                 <version>2.22.0</version>
             </plugin>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-
-                    <scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>
-
-                </configuration>
+            	<groupId>org.apache.maven.plugins</groupId>
+            	<artifactId>maven-release-plugin</artifactId>
+            	<version>2.5.3</version>
             </plugin>
         </plugins>
+        
     </build>
 
     <distributionManagement>
